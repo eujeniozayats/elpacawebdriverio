@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Login_into_app" timestamp="2020-11-09T15:49:36" time="19.431" tests="3" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Login into app"/>
+      <property name="capabilities" value="chrome.86_0_4240_183.windows"/>
+      <property name="file" value=".\test\specs\1_login.js"/>
+    </properties>
+    <testcase classname="chrome.86_0_4240_183.windows.Login_into_app" name="should_open_sign_in_page_and_verify_the_title" time="7.845">
+      <system-out>
+        <![CDATA[
+COMMAND: POST /session/b271d03a5be208e066526ccc46339939/url - {"url":"https://elpaca.ita91.com/login"}
+RESULT: {"url":"https://elpaca.ita91.com/login"}
+COMMAND: POST /session/b271d03a5be208e066526ccc46339939/element - {"using":"xpath","value":"//*[@id=\"root\"]/div[2]/div/h1"}
+RESULT: {"using":"xpath","value":"//*[@id=\"root\"]/div[2]/div/h1"}
+COMMAND: GET /session/b271d03a5be208e066526ccc46339939/element/ac6ceec9-c4ad-4a9c-bd30-8d5bf4d8e651/text - {}
+RESULT: {}
+COMMAND: POST /session/b271d03a5be208e066526ccc46339939/element - {"using":"xpath","value":"//*[@id=\"root\"]/div[2]/div/div/div/div/form/div[1]/div[1]/div/input"}
+RESULT: {"using":"xpath","value":"//*[@id=\"root\"]/div[2]/div/div/div/div/form/div[1]/div[1]/div/input"}
+COMMAND: GET /session/b271d03a5be208e066526ccc46339939/element/c8b1ace9-ed79-4ed3-94bd-2d2840db3080/enabled - {}
+RESULT: {}
+COMMAND: POST /session/b271d03a5be208e066526ccc46339939/element - {"using":"xpath","value":"//*[@id=\"root\"]/div[2]/div/div/div/div/form/div[1]/div[2]/div/input"}
+RESULT: {"using":"xpath","value":"//*[@id=\"root\"]/div[2]/div/div/div/div/form/div[1]/div[2]/div/input"}
+COMMAND: GET /session/b271d03a5be208e066526ccc46339939/element/f79e8fcd-c870-4fdc-aaeb-422b9d6a186f/enabled - {}
+RESULT: {}
+]]>
+      </system-out>
+    </testcase>
+    <testcase classname="chrome.86_0_4240_183.windows.Login_into_app" name="sign_in_with_wrong_credentials" time="2.65">
+      <system-out>
+        <![CDATA[
+COMMAND: POST /session/b271d03a5be208e066526ccc46339939/element - {"using":"xpath","value":"//*[@id=\"root\"]/div[2]/div/div/div/div/form/div[1]/div[1]/div/input"}
+RESULT: {"using":"xpath","value":"//*[@id=\"root\"]/div[2]/div/div/div/div/form/div[1]/div[1]/div/input"}
+COMMAND: POST /session/b271d03a5be208e066526ccc46339939/element/c8b1ace9-ed79-4ed3-94bd-2d2840db3080/value - {"text":"wrongemail"}
+RESULT: {"text":"wrongemail"}
+COMMAND: POST /session/b271d03a5be208e066526ccc46339939/element - {"using":"xpath","value":"//*[@id=\"root\"]/div[2]/div/div/div/div/form/div[1]/div[2]/div/input"}
+RESULT: {"using":"xpath","value":"//*[@id=\"root\"]/div[2]/div/div/div/div/form/div[1]/div[2]/div/input"}
+COMMAND: POST /session/b271d03a5be208e066526ccc46339939/element/f79e8fcd-c870-4fdc-aaeb-422b9d6a186f/value - {"text":"1234"}
+RESULT: {"text":"1234"}
+COMMAND: POST /session/b271d03a5be208e066526ccc46339939/element - {"using":"xpath","value":"//*[@id=\"root\"]/div[2]/div/div/div/div/form/div[3]/div/button[1]/span[1]"}
+RESULT: {"using":"xpath","value":"//*[@id=\"root\"]/div[2]/div/div/div/div/form/div[3]/div/button[1]/span[1]"}
+COMMAND: POST /session/b271d03a5be208e066526ccc46339939/element/290bccf7-c231-4ab4-899e-5314d599c944/click - {}
+RESULT: {}
+COMMAND: POST /session/b271d03a5be208e066526ccc46339939/element - {"using":"xpath","value":"//*[@id=\"root\"]/div[2]/div/div/div/div/form/div[1]/div[1]/p"}
+RESULT: {"using":"xpath","value":"//*[@id=\"root\"]/div[2]/div/div/div/div/form/div[1]/div[1]/p"}
+COMMAND: GET /session/b271d03a5be208e066526ccc46339939/element/47d1e4ce-a2ba-4421-8fca-86b220c18cf1/text - {}
+RESULT: {}
+COMMAND: POST /session/b271d03a5be208e066526ccc46339939/element - {"using":"xpath","value":"//*[@id=\"root\"]/div[2]/div/div/div/div/form/div[1]/div[2]/p"}
+RESULT: {"using":"xpath","value":"//*[@id=\"root\"]/div[2]/div/div/div/div/form/div[1]/div[2]/p"}
+COMMAND: POST /session/b271d03a5be208e066526ccc46339939/elements - {"using":"xpath","value":"//*[@id=\"root\"]/div[2]/div/div/div/div/form/div[1]/div[2]/p"}
+RESULT: {"using":"xpath","value":"//*[@id=\"root\"]/div[2]/div/div/div/div/form/div[1]/div[2]/p"}
+COMMAND: POST /session/b271d03a5be208e066526ccc46339939/element - {"using":"xpath","value":"//*[@id=\"root\"]/div[2]/div/div/div/div/form/div[1]/div[1]/p"}
+RESULT: {"using":"xpath","value":"//*[@id=\"root\"]/div[2]/div/div/div/div/form/div[1]/div[1]/p"}
+COMMAND: GET /session/b271d03a5be208e066526ccc46339939/element/47d1e4ce-a2ba-4421-8fca-86b220c18cf1/text - {}
+RESULT: {}
+COMMAND: POST /session/b271d03a5be208e066526ccc46339939/element - {"using":"xpath","value":"//*[@id=\"root\"]/div[2]/div/div/div/div/form/div[1]/div[2]/p"}
+RESULT: {"using":"xpath","value":"//*[@id=\"root\"]/div[2]/div/div/div/div/form/div[1]/div[2]/p"}
+COMMAND: GET /session/b271d03a5be208e066526ccc46339939/element/1c4b8f1f-4aac-480e-825d-3f036d08c088/text - {}
+RESULT: {}
+]]>
+      </system-out>
+    </testcase>
+    <testcase classname="chrome.86_0_4240_183.windows.Login_into_app" name="sign_in_with_true_credentials" time="8.902">
+      <system-out>
+        <![CDATA[
+COMMAND: POST /session/b271d03a5be208e066526ccc46339939/url - {"url":"https://elpaca.ita91.com/login"}
+RESULT: {"url":"https://elpaca.ita91.com/login"}
+COMMAND: POST /session/b271d03a5be208e066526ccc46339939/element - {"using":"xpath","value":"//*[@id=\"root\"]/div[2]/div/div/div/div/form/div[1]/div[1]/div/input"}
+RESULT: {"using":"xpath","value":"//*[@id=\"root\"]/div[2]/div/div/div/div/form/div[1]/div[1]/div/input"}
+COMMAND: POST /session/b271d03a5be208e066526ccc46339939/element/2dd1e8c6-ac04-4852-8c11-431b00501597/value - {"text":"eugenezayats@yandex.by"}
+RESULT: {"text":"eugenezayats@yandex.by"}
+COMMAND: POST /session/b271d03a5be208e066526ccc46339939/element - {"using":"xpath","value":"//*[@id=\"root\"]/div[2]/div/div/div/div/form/div[1]/div[2]/div/input"}
+RESULT: {"using":"xpath","value":"//*[@id=\"root\"]/div[2]/div/div/div/div/form/div[1]/div[2]/div/input"}
+COMMAND: POST /session/b271d03a5be208e066526ccc46339939/element/9b2ff439-91c0-4871-bc48-75b7ef2c9211/value - {"text":"123456qqqQQQ!"}
+RESULT: {"text":"123456qqqQQQ!"}
+COMMAND: POST /session/b271d03a5be208e066526ccc46339939/element - {"using":"xpath","value":"//*[@id=\"root\"]/div[2]/div/div/div/div/form/div[3]/div/button[1]/span[1]"}
+RESULT: {"using":"xpath","value":"//*[@id=\"root\"]/div[2]/div/div/div/div/form/div[3]/div/button[1]/span[1]"}
+COMMAND: POST /session/b271d03a5be208e066526ccc46339939/element/c2232377-643b-4a0e-b6f5-0ad45aaf39ff/click - {}
+RESULT: {}
+COMMAND: POST /session/b271d03a5be208e066526ccc46339939/timeouts - {"pageLoad":3000}
+RESULT: {"pageLoad":3000}
+COMMAND: GET /session/b271d03a5be208e066526ccc46339939/url - {}
+RESULT: {}
+COMMAND: GET /session/b271d03a5be208e066526ccc46339939/url - {}
+RESULT: {}
+COMMAND: GET /session/b271d03a5be208e066526ccc46339939/url - {}
+RESULT: {}
+COMMAND: DELETE /session/b271d03a5be208e066526ccc46339939 - {}
+RESULT: {}
+]]>
+      </system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

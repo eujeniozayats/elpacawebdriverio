@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="go_to_account_and_subscriptions" timestamp="2020-11-09T16:06:25" time="11.943" tests="2" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="go to account and subscriptions"/>
+      <property name="capabilities" value="chrome.86_0_4240_183.windows"/>
+      <property name="file" value=".\test\specs\2_account.js"/>
+    </properties>
+    <testcase classname="chrome.86_0_4240_183.windows.go_to_account_and_subscriptions" name="goes_to_account_page" time="0.834">
+      <system-out>
+        <![CDATA[
+COMMAND: POST /session/91fc60781e01f6f9c994d914db9f6a0d80635c32/element - {"using":"xpath","value":"//*[@id=\"root\"]/div[2]/header[1]/div/p[3]/a"}
+RESULT: {"using":"xpath","value":"//*[@id=\"root\"]/div[2]/header[1]/div/p[3]/a"}
+COMMAND: POST /session/91fc60781e01f6f9c994d914db9f6a0d80635c32/element/3/click - {}
+RESULT: {}
+COMMAND: POST /session/91fc60781e01f6f9c994d914db9f6a0d80635c32/timeouts - {"type":"page load","ms":10000}
+RESULT: {"type":"page load","ms":10000}
+COMMAND: GET /session/91fc60781e01f6f9c994d914db9f6a0d80635c32/url - {}
+RESULT: {}
+COMMAND: GET /session/91fc60781e01f6f9c994d914db9f6a0d80635c32/url - {}
+RESULT: {}
+]]>
+      </system-out>
+    </testcase>
+    <testcase classname="chrome.86_0_4240_183.windows.go_to_account_and_subscriptions" name="verify_if_manage_subscription_page_opens" time="4.247">
+      <system-out>
+        <![CDATA[
+COMMAND: POST /session/91fc60781e01f6f9c994d914db9f6a0d80635c32/element - {"using":"xpath","value":"//*[@id=\"root\"]/div[2]/header[1]/div/button"}
+RESULT: {"using":"xpath","value":"//*[@id=\"root\"]/div[2]/header[1]/div/button"}
+COMMAND: POST /session/91fc60781e01f6f9c994d914db9f6a0d80635c32/element/4/click - {}
+RESULT: {}
+COMMAND: GET /session/91fc60781e01f6f9c994d914db9f6a0d80635c32/url - {}
+RESULT: {}
+COMMAND: POST /session/91fc60781e01f6f9c994d914db9f6a0d80635c32/element - {"using":"xpath","value":"//*[@id=\"root\"]/div[2]/div/nav/ol/li[5]/p"}
+RESULT: {"using":"xpath","value":"//*[@id=\"root\"]/div[2]/div/nav/ol/li[5]/p"}
+COMMAND: DELETE /session/91fc60781e01f6f9c994d914db9f6a0d80635c32 - {}
+RESULT: {}
+]]>
+      </system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

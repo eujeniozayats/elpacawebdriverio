@@ -1,0 +1,173 @@
+{
+  "uid" : "aea43d6e952fa806",
+  "name" : "account page",
+  "fullName" : "upload a userpic.account page",
+  "historyId" : "1de047b9150f152365ef23ef7d87c1af",
+  "time" : {
+    "start" : 1604922768159,
+    "stop" : 1604922768723,
+    "duration" : 564
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1604922768164,
+        "stop" : 1604922768329,
+        "duration" : 165
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1dfc704927e52c61",
+        "name" : "Request",
+        "source" : "1dfc704927e52c61.json",
+        "type" : "application/json",
+        "size" : 82
+      }, {
+        "uid" : "4242e203a3a8b304",
+        "name" : "Response",
+        "source" : "4242e203a3a8b304.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/b968e007-3265-44ad-ad32-f99f915858b9/click",
+      "time" : {
+        "start" : 1604922768331,
+        "stop" : 1604922768601,
+        "duration" : 270
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/timeouts",
+      "time" : {
+        "start" : 1604922768602,
+        "stop" : 1604922768609,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "19d9db218698139a",
+        "name" : "Request",
+        "source" : "19d9db218698139a.json",
+        "type" : "application/json",
+        "size" : 23
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/url",
+      "time" : {
+        "start" : 1604922768610,
+        "stop" : 1604922768684,
+        "duration" : 74
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "eeec9beb765252da",
+        "name" : "Response",
+        "source" : "eeec9beb765252da.json",
+        "type" : "application/json",
+        "size" : 34
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/url",
+      "time" : {
+        "start" : 1604922768685,
+        "stop" : 1604922768723,
+        "duration" : 38
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "95b71e2be57932fe",
+        "name" : "Response",
+        "source" : "95b71e2be57932fe.json",
+        "type" : "application/json",
+        "size" : 34
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "upload a userpic"
+  }, {
+    "name" : "testClass",
+    "value" : "upload a userpic"
+  }, {
+    "name" : "testMethod",
+    "value" : "account page"
+  }, {
+    "name" : "package",
+    "value" : "upload a userpic"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-86.0.4240.183"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "aea43d6e952fa806.json",
+  "parameterValues" : [ "chrome-86.0.4240.183" ]
+}

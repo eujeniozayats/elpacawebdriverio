@@ -1,0 +1,4 @@
+{
+  "script": "return (function () {\n      document.getElementById('photo').style.display = 'block';\n    }).apply(null, arguments)",
+  "args": []
+}

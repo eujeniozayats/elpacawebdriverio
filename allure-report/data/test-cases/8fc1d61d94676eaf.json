@@ -1,0 +1,158 @@
+{
+  "uid" : "8fc1d61d94676eaf",
+  "name" : "verify if manage subscription page opens",
+  "fullName" : "go to account and subscriptions.verify if manage subscription page opens",
+  "historyId" : "2c2d8f9ccfa91b8303c0606ca24a2d1d",
+  "time" : {
+    "start" : 1604922766172,
+    "stop" : 1604922769459,
+    "duration" : 3287
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1604922766173,
+        "stop" : 1604922766218,
+        "duration" : 45
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c686b60ad2abcb2d",
+        "name" : "Request",
+        "source" : "c686b60ad2abcb2d.json",
+        "type" : "application/json",
+        "size" : 82
+      }, {
+        "uid" : "e8492a1bce92f1a5",
+        "name" : "Response",
+        "source" : "e8492a1bce92f1a5.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/c06839d7-80b6-45ee-bccb-6253213cdaee/click",
+      "time" : {
+        "start" : 1604922766223,
+        "stop" : 1604922766351,
+        "duration" : 128
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/url",
+      "time" : {
+        "start" : 1604922766352,
+        "stop" : 1604922766365,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2a5fc9ae3cf96cd6",
+        "name" : "Response",
+        "source" : "2a5fc9ae3cf96cd6.json",
+        "type" : "application/json",
+        "size" : 46
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1604922766366,
+        "stop" : 1604922766443,
+        "duration" : 77
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "650f3b9c6dfb13d",
+        "name" : "Request",
+        "source" : "650f3b9c6dfb13d.json",
+        "type" : "application/json",
+        "size" : 80
+      }, {
+        "uid" : "92f8a422b6379426",
+        "name" : "Response",
+        "source" : "92f8a422b6379426.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 4
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "go to account and subscriptions"
+  }, {
+    "name" : "testClass",
+    "value" : "go to account and subscriptions"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify if manage subscription page opens"
+  }, {
+    "name" : "package",
+    "value" : "go to account and subscriptions"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-86.0.4240.183"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8fc1d61d94676eaf.json",
+  "parameterValues" : [ "chrome-86.0.4240.183" ]
+}

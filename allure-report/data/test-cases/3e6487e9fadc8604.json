@@ -1,0 +1,173 @@
+{
+  "uid" : "3e6487e9fadc8604",
+  "name" : "goes to account page",
+  "fullName" : "go to account and subscriptions.goes to account page",
+  "historyId" : "1a6e1424275d31366adcbc1dd5a3b7ba",
+  "time" : {
+    "start" : 1604922765901,
+    "stop" : 1604922766171,
+    "duration" : 270
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1604922765903,
+        "stop" : 1604922765933,
+        "duration" : 30
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "292a7beca19b8f1f",
+        "name" : "Request",
+        "source" : "292a7beca19b8f1f.json",
+        "type" : "application/json",
+        "size" : 82
+      }, {
+        "uid" : "6f6453d25e644262",
+        "name" : "Response",
+        "source" : "6f6453d25e644262.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/30aa8aa3-e9d6-48e4-a002-c560abc7925d/click",
+      "time" : {
+        "start" : 1604922765936,
+        "stop" : 1604922766094,
+        "duration" : 158
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/timeouts",
+      "time" : {
+        "start" : 1604922766094,
+        "stop" : 1604922766100,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4e64e67a90fa0fd5",
+        "name" : "Request",
+        "source" : "4e64e67a90fa0fd5.json",
+        "type" : "application/json",
+        "size" : 23
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/url",
+      "time" : {
+        "start" : 1604922766100,
+        "stop" : 1604922766143,
+        "duration" : 43
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "86b273c6e596e864",
+        "name" : "Response",
+        "source" : "86b273c6e596e864.json",
+        "type" : "application/json",
+        "size" : 34
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/url",
+      "time" : {
+        "start" : 1604922766144,
+        "stop" : 1604922766170,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4c362a373622f466",
+        "name" : "Response",
+        "source" : "4c362a373622f466.json",
+        "type" : "application/json",
+        "size" : 34
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "go to account and subscriptions"
+  }, {
+    "name" : "testClass",
+    "value" : "go to account and subscriptions"
+  }, {
+    "name" : "testMethod",
+    "value" : "goes to account page"
+  }, {
+    "name" : "package",
+    "value" : "go to account and subscriptions"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-86.0.4240.183"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3e6487e9fadc8604.json",
+  "parameterValues" : [ "chrome-86.0.4240.183" ]
+}

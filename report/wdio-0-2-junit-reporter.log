@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="upload_a_userpic" timestamp="2020-11-09T16:06:24" time="12.812" tests="2" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="upload a userpic"/>
+      <property name="capabilities" value="chrome.86_0_4240_183.windows"/>
+      <property name="file" value=".\test\specs\3_upload_a_userpick.js"/>
+    </properties>
+    <testcase classname="chrome.86_0_4240_183.windows.upload_a_userpic" name="account_page" time="0.772">
+      <system-out>
+        <![CDATA[
+COMMAND: POST /session/58e70b1f4d0c979199e4fc61b6c0f2c81727873e/element - {"using":"xpath","value":"//*[@id=\"root\"]/div[2]/header[1]/div/p[3]/a"}
+RESULT: {"using":"xpath","value":"//*[@id=\"root\"]/div[2]/header[1]/div/p[3]/a"}
+COMMAND: POST /session/58e70b1f4d0c979199e4fc61b6c0f2c81727873e/element/3/click - {}
+RESULT: {}
+COMMAND: POST /session/58e70b1f4d0c979199e4fc61b6c0f2c81727873e/timeouts - {"type":"page load","ms":10000}
+RESULT: {"type":"page load","ms":10000}
+COMMAND: GET /session/58e70b1f4d0c979199e4fc61b6c0f2c81727873e/url - {}
+RESULT: {}
+COMMAND: GET /session/58e70b1f4d0c979199e4fc61b6c0f2c81727873e/url - {}
+RESULT: {}
+]]>
+      </system-out>
+    </testcase>
+    <testcase classname="chrome.86_0_4240_183.windows.upload_a_userpic" name="uploads_a_file" time="6.633">
+      <system-out>
+        <![CDATA[
+COMMAND: POST /session/58e70b1f4d0c979199e4fc61b6c0f2c81727873e/file - {"file":"[base64] 24936 bytes"}
+RESULT: {"file":"[base64] 24936 bytes"}
+COMMAND: POST /session/58e70b1f4d0c979199e4fc61b6c0f2c81727873e/element - {"using":"xpath","value":"//*[@id=\"root\"]/div[2]/div/div/div/div/div[3]/div[2]/div/div/div/div[3]/a/p"}
+RESULT: {"using":"xpath","value":"//*[@id=\"root\"]/div[2]/div/div/div/div/div[3]/div[2]/div/div/div/div[3]/a/p"}
+COMMAND: POST /session/58e70b1f4d0c979199e4fc61b6c0f2c81727873e/element/4/click - {}
+RESULT: {}
+COMMAND: POST /session/58e70b1f4d0c979199e4fc61b6c0f2c81727873e/timeouts - {"type":"page load","ms":10000}
+RESULT: {"type":"page load","ms":10000}
+COMMAND: GET /session/58e70b1f4d0c979199e4fc61b6c0f2c81727873e/url - {}
+RESULT: {}
+COMMAND: GET /session/58e70b1f4d0c979199e4fc61b6c0f2c81727873e/url - {}
+RESULT: {}
+COMMAND: POST /session/58e70b1f4d0c979199e4fc61b6c0f2c81727873e/execute - {"script":"return (function () {\n      document.getElementById('photo').style.display = 'block';\n    }).apply(null, arguments)","args":[]}
+RESULT: {"script":"return (function () {\n      document.getElementById('photo').style.display = 'block';\n    }).apply(null, arguments)","args":[]}
+COMMAND: POST /session/58e70b1f4d0c979199e4fc61b6c0f2c81727873e/element - {"using":"xpath","value":"//*[@id=\"photo\"]"}
+RESULT: {"using":"xpath","value":"//*[@id=\"photo\"]"}
+COMMAND: GET /session/58e70b1f4d0c979199e4fc61b6c0f2c81727873e/element/5/displayed - {}
+RESULT: {}
+COMMAND: POST /session/58e70b1f4d0c979199e4fc61b6c0f2c81727873e/element - {"using":"xpath","value":"//*[@id=\"photo\"]"}
+RESULT: {"using":"xpath","value":"//*[@id=\"photo\"]"}
+COMMAND: POST /session/58e70b1f4d0c979199e4fc61b6c0f2c81727873e/element/5/clear - {}
+RESULT: {}
+COMMAND: POST /session/58e70b1f4d0c979199e4fc61b6c0f2c81727873e/element/5/value - {"value":["C",":","\\","W","i","n","d","o","w","s","(89 more items)"]}
+RESULT: {"value":["C",":","\\","W","i","n","d","o","w","s","(89 more items)"]}
+COMMAND: DELETE /session/58e70b1f4d0c979199e4fc61b6c0f2c81727873e - {}
+RESULT: {}
+]]>
+      </system-out>
+    </testcase>
+  </testsuite>
+</testsuites>
