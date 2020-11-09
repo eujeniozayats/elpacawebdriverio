@@ -23,6 +23,19 @@ describe('go to account and subscriptions', () => {
         expect(SubsPage.mngPlnString).toBeVisible;
         browser.pause(3000);
         
+    });
+    it('verify value in the button', () => {
+        const Text = "UNSUBSCRIBE";
+        const SText = "SUBSCRIBE";
+        if (SubsPage.subscribeFirst.getText() === Text) {
+            SubsPage.subscribeFirst.click();
+            browser.pause(10000);
+            expect(SubsPage.subscribeFirst).toHaveText(SText)
+
+        } else {
+            expect(SubsPage.subscribeFirst).toHaveText(SText)
+        };
+        
     }); 
 
 });
