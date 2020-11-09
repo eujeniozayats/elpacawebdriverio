@@ -3,7 +3,7 @@ exports.config = {
     user: process.env.BROWSERSTACK_USERNAME,
     key: process.env.BROWSERSTACK_KEY,
     //
-    //
+    //git 
     // ====================
     // Runner Configuration
     // ====================
@@ -138,8 +138,12 @@ exports.config = {
     },
 ],
 ['junit', {
-    outputDir: './report'
-}]
+    outputDir: './report',
+    outputFileFormat: function(options) {
+        return `results-${new Date().getTime()}.xml`;
+    },
+},
+]
 ],
     
     
