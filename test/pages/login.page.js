@@ -3,31 +3,26 @@ import Page from './page';
 class LoginPage extends Page {
     
     get signInTitle() {
-        return $('//*[@id="root"]/div[2]/div/h1');
+        return $('#root > div.sc-AykKC.itxLzi > div > h1');
     }
     get emailInput() {
-        return $('//*[@id="root"]/div[2]/div/div/div/div/form/div[1]/div[1]/div/input');
+        return $('[name="email"]');
     }
     get passwordInput() {
-        return $('//*[@id="root"]/div[2]/div/div/div/div/form/div[1]/div[2]/div/input');
+        return $('[name="password"]');
     }
     get signInButton() {
-        return $('//*[@id="root"]/div[2]/div/div/div/div/form/div[3]/div/button[1]/span[1]');
+        return $('span=Sign In');
     }
     get invalidEmailMsg() {
-        return $('//*[@id="root"]/div[2]/div/div/div/div/form/div[1]/div[1]/p');
+        return $('p=Email is invalid');
     }
 
     get shortPassMsg() {
-        return $('//*[@id="root"]/div[2]/div/div/div/div/form/div[1]/div[2]/p');
+        return $('p=Password must contain at least 8 characters');
     }
     
-    open() {
-        
-        super.open('https://.....');
-
-    }
-
+    
 }
 
 export default new LoginPage();
